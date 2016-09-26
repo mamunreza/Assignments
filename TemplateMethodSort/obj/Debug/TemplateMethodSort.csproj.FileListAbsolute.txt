@@ -1,5 +1,0 @@
-D:\Projects\stones\TemplateMethodSort\TemplateMethodSort\bin\Debug\TemplateMethodSort.exe.config
-D:\Projects\stones\TemplateMethodSort\TemplateMethodSort\bin\Debug\TemplateMethodSort.exe
-D:\Projects\stones\TemplateMethodSort\TemplateMethodSort\bin\Debug\TemplateMethodSort.pdb
-D:\Projects\stones\TemplateMethodSort\TemplateMethodSort\obj\Debug\TemplateMethodSort.exe
-D:\Projects\stones\TemplateMethodSort\TemplateMethodSort\obj\Debug\TemplateMethodSort.pdb
