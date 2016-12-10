@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DecoratedShapes
 {
@@ -24,10 +20,13 @@ namespace DecoratedShapes
             pointDecorator.SetShape(point);
             pointDecorator.Draw();
 
-            lineDecorator.SetShape(line);
+            pointDecorator.SetShape(line);
+            lineDecorator.SetShape(pointDecorator);
             lineDecorator.Draw();
 
-            rectangleDecorator.SetShape(rectangle);
+            pointDecorator.SetShape(rectangle);
+            lineDecorator.SetShape(pointDecorator);
+            rectangleDecorator.SetShape(lineDecorator);
             rectangleDecorator.Draw();
 
             Console.ReadKey();
